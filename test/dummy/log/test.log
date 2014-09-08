@@ -13240,3 +13240,399 @@ Processing by EditableContent::EditablesController#update as HTML
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
 Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/test_helper.rb:20:in `<class:TestCase>'
+/Users/rchaves/Sites/editable_content/test/test_helper.rb:15:in `<top (required)>'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:1:in `require'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:1:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:4:in `<class:EditablesControllerTest>'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:3:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/helpers/editables_helper_test.rb:7:in `<class:EditablesHelperTest>'
+/Users/rchaves/Sites/editable_content/test/helpers/editables_helper_test.rb:4:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "editable_content_editables"
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "editable_content_editables" ("key", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2014-09-08 16:12:15', '2014-09-08 16:12:15', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "editable_content_editables" ("key", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2014-09-08 16:12:15', '2014-09-08 16:12:15', 298486374)
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------------------------------------------
+EditablesHelperTest: test_editable_image_tag_without_size_should_raise_an_error
+-------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+--------------------------------------------------------------------------------------------------------
+EditablesHelperTest: test_should_create_new_editable_for_new_key,_and_use_the_existent_for_existent_ones
+--------------------------------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:12:15.168104"], ["key", "9a7b64c98b066602b21f869ae7cd673a"], ["text", "test 1"], ["updated_at", "2014-09-08 16:12:15.168104"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:12:15.172745"], ["key", "38b0d2ff1c03df82aea67222983d337e"], ["text", "test 2"], ["updated_at", "2014-09-08 16:12:15.172745"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------------------------------------------------------------------------
+EditablesHelperTest: test_should_create_new_editable_image_for_new_key,_and_use_the_existent_for_existent_ones
+--------------------------------------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:12:15.180916"], ["key", "9ea7925c965967e978aecbb5fcb0ec3d"], ["src", "test1.png"], ["updated_at", "2014-09-08 16:12:15.180916"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------------------------------------------
+EditablesHelperTest: test_should_render_editable_content_to_alowed_logged_users
+-------------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mEditableContent::Editable Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-09-08 16:12:15.188687"], ["key", "ae2db22f957d263b847cfcb423cd1d0e"], ["text", "text test"], ["updated_at", "2014-09-08 16:12:15.188687"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_editable_image_to_allowed_users
+-----------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.3ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:12:15.195191"], ["key", "e3a8dca0c946c4b34f1cbb69382e9693"], ["src", "rails.png"], ["updated_at", "2014-09-08 16:12:15.195191"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_only_img_for_not_allowed_users
+----------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mEditableContent::Editable Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-09-08 16:12:15.201107"], ["key", "e3a8dca0c946c4b34f1cbb69382e9693"], ["src", "rails.png"], ["updated_at", "2014-09-08 16:12:15.201107"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_only_text_for_not_allowed_users
+-----------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.3ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:12:15.209948"], ["key", "ae2db22f957d263b847cfcb423cd1d0e"], ["text", "text test"], ["updated_at", "2014-09-08 16:12:15.209948"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_not_be_able_to_update_image_if_unauthorized
+-------------------------------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"value"=>"teste"}}}
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_update_editable_image
+---------------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"type"=>"image", "attributes"=>{"src"=>"teste"}}}}
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "editable_content_editables" SET "src" = ?, "updated_at" = ? WHERE "editable_content_editables"."id" = 298486374[0m  [["src", "teste"], ["updated_at", "2014-09-08 16:12:15.226533"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_update_editable_text
+--------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"value"=>"teste"}}}
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'MyString' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "editable_content_editables" SET "text" = ?, "updated_at" = ? WHERE "editable_content_editables"."id" = 298486374  [["text", "teste"], ["updated_at", "2014-09-08 16:12:15.234107"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/test_helper.rb:20:in `<class:TestCase>'
+/Users/rchaves/Sites/editable_content/test/test_helper.rb:15:in `<top (required)>'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:1:in `require'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:1:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:4:in `<class:EditablesControllerTest>'
+/Users/rchaves/Sites/editable_content/test/controllers/editable_content/editable_controller_test.rb:3:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+Unable to load editable, underlying cause No such file to load -- editable 
+
+ /Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:307:in `depend_on'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:225:in `require_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:881:in `block in require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:879:in `require_fixture_classes'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.1.1/lib/active_record/fixtures.rb:857:in `fixtures'
+/Users/rchaves/Sites/editable_content/test/helpers/editables_helper_test.rb:7:in `<class:EditablesHelperTest>'
+/Users/rchaves/Sites/editable_content/test/helpers/editables_helper_test.rb:4:in `<top (required)>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.1.1/lib/active_support/dependencies.rb:247:in `require'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `each'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `select'
+/Users/rchaves/.rvm/gems/ruby-2.0.0-p247/gems/rake-10.3.2/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "editable_content_editables"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "editable_content_editables" ("key", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2014-09-08 16:19:48', '2014-09-08 16:19:48', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "editable_content_editables" ("key", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2014-09-08 16:19:48', '2014-09-08 16:19:48', 298486374)
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------------------------
+EditablesHelperTest: test_editable_image_tag_without_size_should_raise_an_error
+-------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+--------------------------------------------------------------------------------------------------------
+EditablesHelperTest: test_should_create_new_editable_for_new_key,_and_use_the_existent_for_existent_ones
+--------------------------------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.2ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:19:48.932039"], ["key", "9a7b64c98b066602b21f869ae7cd673a"], ["text", "test 1"], ["updated_at", "2014-09-08 16:19:48.932039"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9a7b64c98b066602b21f869ae7cd673a' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:19:48.936429"], ["key", "38b0d2ff1c03df82aea67222983d337e"], ["text", "test 2"], ["updated_at", "2014-09-08 16:19:48.936429"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '38b0d2ff1c03df82aea67222983d337e' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------------------------------------------------------------------------
+EditablesHelperTest: test_should_create_new_editable_image_for_new_key,_and_use_the_existent_for_existent_ones
+--------------------------------------------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:19:48.943680"], ["key", "9ea7925c965967e978aecbb5fcb0ec3d"], ["src", "test1.png"], ["updated_at", "2014-09-08 16:19:48.943680"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "editable_content_editables"[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = '9ea7925c965967e978aecbb5fcb0ec3d'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "editable_content_editables"
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------------------------
+EditablesHelperTest: test_should_render_editable_content_to_alowed_logged_users
+-------------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mEditableContent::Editable Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-09-08 16:19:48.951374"], ["key", "ae2db22f957d263b847cfcb423cd1d0e"], ["text", "text test"], ["updated_at", "2014-09-08 16:19:48.951374"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_editable_image_to_allowed_users
+-----------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.2ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:19:48.957156"], ["key", "e3a8dca0c946c4b34f1cbb69382e9693"], ["src", "rails.png"], ["updated_at", "2014-09-08 16:19:48.957156"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_only_img_for_not_allowed_users
+----------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693'  ORDER BY "editable_content_editables"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mEditableContent::Editable Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'e3a8dca0c946c4b34f1cbb69382e9693' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "editable_content_editables" ("created_at", "key", "src", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-09-08 16:19:48.963099"], ["key", "e3a8dca0c946c4b34f1cbb69382e9693"], ["src", "rails.png"], ["updated_at", "2014-09-08 16:19:48.963099"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+EditablesHelperTest: test_should_render_only_text_for_not_allowed_users
+-----------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.2ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mEditableContent::Editable Exists (0.1ms)[0m  SELECT  1 AS one FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'ae2db22f957d263b847cfcb423cd1d0e' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "editable_content_editables" ("created_at", "key", "text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-08 16:19:48.968380"], ["key", "ae2db22f957d263b847cfcb423cd1d0e"], ["text", "text test"], ["updated_at", "2014-09-08 16:19:48.968380"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_not_be_able_to_update_image_if_unauthorized
+-------------------------------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"value"=>"teste"}}}
+Completed 401 Unauthorized in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_update_editable_image
+---------------------------------------------------------------------------
+  [1m[35mEditableContent::Editable Load (0.1ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"type"=>"image", "attributes"=>{"src"=>"teste"}}}}
+  [1m[36mEditableContent::Editable Load (0.1ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'MyString' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "editable_content_editables" SET "src" = ?, "updated_at" = ? WHERE "editable_content_editables"."id" = 298486374[0m  [["src", "teste"], ["updated_at", "2014-09-08 16:19:48.993746"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------------------------------------
+EditableContent::EditablesControllerTest: test_should_update_editable_text
+--------------------------------------------------------------------------
+  [1m[36mEditableContent::Editable Load (0.2ms)[0m  [1mSELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by EditableContent::EditablesController#update as HTML
+  Parameters: {"content"=>{"MyString"=>{"value"=>"teste"}}}
+  [1m[35mEditableContent::Editable Load (0.2ms)[0m  SELECT  "editable_content_editables".* FROM "editable_content_editables"  WHERE "editable_content_editables"."key" = 'MyString' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "editable_content_editables" SET "text" = ?, "updated_at" = ? WHERE "editable_content_editables"."id" = 298486374  [["text", "teste"], ["updated_at", "2014-09-08 16:19:49.002548"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
