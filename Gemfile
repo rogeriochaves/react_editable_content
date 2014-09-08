@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'coveralls', require: false
 gem 'mercury-rails', git: 'https://github.com/jejacks0n/mercury.git', ref: '1cc637b'
 
 # For dummy app
