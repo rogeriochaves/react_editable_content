@@ -9,7 +9,7 @@ module EditableContent
       source_root File.expand_path("../templates", __FILE__)
 
       def create_migrations
-        migration_template 'create_editables.rb', 'db/migrate/create_editables.rb'
+        migration_template 'create_editable_content_editables.rb', 'db/migrate/create_editable_content_editables.rb'
       end
     end
   end

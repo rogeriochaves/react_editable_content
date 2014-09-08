@@ -1,12 +1,20 @@
 # encoding: UTF-8
-require "bundler/gem_tasks"
-require "rails/test_unit/railtie"
+require 'rubygems'
+begin
+  require 'bundler/setup'
+rescue LoadError
+  puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
+end
 
-desc 'Run editable_content unit tests.'
+require 'rake'
+
+require 'rake/testtask'
+
 Rake::TestTask.new(:test) do |t|
   t.libs << 'lib'
   t.libs << 'test'
   t.pattern = 'test/**/*_test.rb'
-  t.verbose = true
-  t.warning = false
+  t.verbose = false
 end
+
+task :default => :test

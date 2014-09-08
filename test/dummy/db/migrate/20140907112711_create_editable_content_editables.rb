@@ -1,6 +1,6 @@
-class CreateEditables < ActiveRecord::Migration
+class CreateEditableContentEditables < ActiveRecord::Migration
   def change
-    create_table :editables do |t|
+    create_table :editable_content_editables do |t|
       t.string :key
       t.text :text
       t.attachment :picture

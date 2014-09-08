@@ -1,11 +1,11 @@
 # encoding: utf-8
 require 'test_helper'
-require 'Ability'
 
 class EditablesHelperTest < ActionView::TestCase
 	include ApplicationHelper
-	include Devise::TestHelpers 
-	#include CanCan::Ability
+
+	fixtures :editables
+  	set_fixture_class :editables => EditableContent::Editable
 
 	setup do
 		self.stubs(:can_change_editable_content?).returns(true)
@@ -16,22 +16,22 @@ class EditablesHelperTest < ActionView::TestCase
 
 	# Editable Text
 	test "should create new editable for new key, and use the existent for existent ones" do
-		assert_difference('Editable.count') do
+		assert_difference('EditableContent::Editable.count') do
 			a = editable_content do
 				"test 1"
 			end
 		end
-		assert_difference('Editable.count', 0) do
+		assert_difference('EditableContent::Editable.count', 0) do
 			editable_content do
 				"test 1"
 			end
 		end
-		assert_difference('Editable.count') do
+		assert_difference('EditableContent::Editable.count') do
 			editable_content('test 2') do
 				"test 2"
 			end
 		end
-		assert_difference('Editable.count', 0) do
+		assert_difference('EditableContent::Editable.count', 0) do
 			editable_content('test 2') do
 				"test 2"
 			end
@@ -59,10 +59,10 @@ class EditablesHelperTest < ActionView::TestCase
 	end
 
 	test "should create new editable image for new key, and use the existent for existent ones" do
-		assert_difference('Editable.count') do
+		assert_difference('EditableContent::Editable.count') do
 			editable_image_tag "test1.png", :size => "50x50"
 		end
-		assert_difference('Editable.count', 0) do
+		assert_difference('EditableContent::Editable.count', 0) do
 			editable_image_tag "test1.png", :size => "50x50"
 		end
 	end

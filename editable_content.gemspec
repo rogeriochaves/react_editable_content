@@ -19,10 +19,14 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.required_ruby_version = ">= 1.9.2"
+  s.required_ruby_version = ">= 1.9.3"
 
   s.add_dependency('paperclip', '>= 4.1.1')
   s.add_dependency('ckeditor_rails', '>= 4.3.4')
-  s.add_dependency("railties", ">= 3.2.6", "< 5")
+  s.add_dependency('jquery-rails', '>= 3.1.0')
+
+  s.add_development_dependency('sqlite3', '~> 1.3.9')
+  s.add_development_dependency('activerecord', '>= 4.1.1')
+  s.add_development_dependency('mocha', '>= 1.0.0')
 
 end
