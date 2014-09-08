@@ -1,9 +1,8 @@
 $LOAD_PATH.push File.expand_path("../lib", __FILE__)
-require 'paperclip/version'
 
 Gem::Specification.new do |s|
   s.name              = "editable_content"
-  s.version           = Paperclip::VERSION
+  s.version           = "0.0.1"
   s.platform          = Gem::Platform::RUBY
   s.author            = "Rogério Chaves"
   s.email             = ["rogerio@react.ag"]
@@ -22,9 +21,5 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 1.9.3"
 
   s.add_dependency('paperclip', '>= 4.1.1')
-
-  s.add_development_dependency('sqlite3', '~> 1.3.9')
-  s.add_development_dependency('activerecord', '>= 4.1.1')
-  s.add_development_dependency('mocha', '>= 1.0.0')
 
 end
