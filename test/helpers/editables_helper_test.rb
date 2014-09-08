@@ -2,13 +2,13 @@
 require 'test_helper'
 
 class EditablesHelperTest < ActionView::TestCase
-	include ApplicationHelper
+	include EditableContent::ApplicationHelper
 
 	fixtures :editables
   	set_fixture_class :editables => EditableContent::Editable
 
 	setup do
-		self.stubs(:can_change_editable_content?).returns(true)
+		self.stubs(:can_edit?).returns(true)
 		request = mock('request')
     	request.stubs(:url).returns('/test')
 		self.stubs(:request).returns(request)
@@ -39,7 +39,7 @@ class EditablesHelperTest < ActionView::TestCase
 	end
 
 	test "should render only text for not allowed users" do
-		self.stubs(:can_change_editable_content?).returns(false)
+		self.stubs(:can_edit?).returns(false)
 		editable = editable_content do
 			"text test"
 		end
@@ -50,7 +50,7 @@ class EditablesHelperTest < ActionView::TestCase
 		editable = editable_content do
 			"text test"
 		end
-		assert_match /data-editable/, editable
+		assert_match /data-mercury/, editable
 	end
 
 	# Editable Images
@@ -68,11 +68,11 @@ class EditablesHelperTest < ActionView::TestCase
 	end
 
 	test "should render only img for not allowed users" do
-		self.stubs(:can_change_editable_content?).returns(false)
+		self.stubs(:can_edit?).returns(false)
 		assert_equal "<img alt=\"Rails\" height=\"50\" src=\"/images/rails.png\" width=\"50\" />", editable_image_tag("rails.png", :size => "50x50")
 	end
 
 	test "should render editable image to allowed users" do
-		assert_match /data-img-editable/, editable_image_tag("rails.png", :size => "50x50")
+		assert_match /data-mercury="image"/, editable_image_tag("rails.png", :size => "50x50")
 	end
 end

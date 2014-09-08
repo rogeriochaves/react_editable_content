@@ -1,21 +1,21 @@
 module EditableContent
 	class EditablesController < ::ApplicationController
-		before_filter :can_change_editable_content?
+		include Mercury::Authentication
 
 		def update
-			@editable = Editable.find_by_key params[:id]
-			if editable_params[:return_to]
-				@editable.update_attributes(editable_params)
-				redirect_to editable_params[:return_to]
+			if can_edit?
+				params[:content].each do |key, value|
+					editable = Editable.find_by_key key
+					if value[:type] == "image" and !value[:attributes][:src].start_with?("/assets")
+						editable.update_attribute(:src, value[:attributes][:src])
+					else
+						editable.update_attribute(:text, value[:value])
+					end
+				end
+				render json: {status: "ok"}
 			else
-				@editable.update_attribute(:text, editable_params[:text])
-				render :json => {status: "ok"}
+				render nothing: true, status: :unauthorized
 			end
 		end
-
-		private 
-	    def editable_params
-	        params.require(:editable).permit(:key, :text, :size, :picture, :return_to)
-	    end
 	end
 end

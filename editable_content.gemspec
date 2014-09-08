@@ -22,8 +22,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 1.9.3"
 
   s.add_dependency('paperclip', '>= 4.1.1')
-  s.add_dependency('ckeditor_rails', '>= 4.3.4')
-  s.add_dependency('jquery-rails', '>= 3.1.0')
 
   s.add_development_dependency('sqlite3', '~> 1.3.9')
   s.add_development_dependency('activerecord', '>= 4.1.1')

@@ -3,7 +3,7 @@ class CreateEditableContentEditables < ActiveRecord::Migration
     create_table :editable_content_editables do |t|
       t.string :key
       t.text :text
-      t.attachment :picture
+      t.string :src
 
       t.timestamps
     end

@@ -10,7 +10,13 @@ module EditableContent
 
       def create_migrations
         migration_template 'create_editable_content_editables.rb', 'db/migrate/create_editable_content_editables.rb'
+        migration_template 'create_mercury_images.rb', 'db/migrate/create_mercury_images.rb'
       end
+
+      def install_authentication
+        copy_file 'lib/mercury/authentication.rb'
+      end
+
     end
   end
 end
