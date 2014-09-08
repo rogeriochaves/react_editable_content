@@ -6,12 +6,12 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.author            = "Rogério Chaves"
   s.email             = ["rogerio@react.ag"]
-  s.homepage          = "https://github.com/rogeriochaves/editable_content"
+  s.homepage          = "https://github.com/rogeriochaves/react_editable_content"
   s.summary           = "Easily edit static content from the front-end"
   s.description       = "Change text and images from the browser"
   s.license           = "MIT"
 
-  #s.rubyforge_project = "editable_content"
+  #s.rubyforge_project = "react_editable_content"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
