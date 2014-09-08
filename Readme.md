@@ -4,6 +4,7 @@ This gem wraps the mercury-rails gem (a very cool full page wysiwyg text editor,
 
 [![Travis CI](http://img.shields.io/travis/rogeriochaves/editable_content/master.svg)](https://travis-ci.org/rogeriochaves/editable_content)
 [![Coverage Status](https://img.shields.io/coveralls/rogeriochaves/editable_content.svg)](https://coveralls.io/r/rogeriochaves/editable_content)
+[![Code Climate](https://codeclimate.com/github/rogeriochaves/editable_content/badges/gpa.svg)](https://codeclimate.com/github/rogeriochaves/editable_content)
 
 editable_content makes very simple to create an editable block of text or image. First, include this two gems on your Gemfile:
 
