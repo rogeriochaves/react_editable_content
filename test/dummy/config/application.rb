@@ -6,7 +6,7 @@ require "action_controller/railtie"
 require "action_view/railtie"
 
 Bundler.require
-require "editable_content"
+require "react_editable_content"
 
 module Dummy
   class Application < Rails::Application

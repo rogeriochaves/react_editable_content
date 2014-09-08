@@ -1,15 +1,15 @@
-# editable_content
+# react_editable_content
 
 This gem wraps the mercury-rails gem (a very cool full page wysiwyg text editor, check out [the demo](http://jejacks0n.github.com/mercury/)) to make it much easier to use with Rails.
 
-[![Travis CI](http://img.shields.io/travis/rogeriochaves/editable_content/master.svg)](https://travis-ci.org/rogeriochaves/editable_content)
-[![Coverage Status](https://img.shields.io/coveralls/rogeriochaves/editable_content.svg)](https://coveralls.io/r/rogeriochaves/editable_content)
-[![Code Climate](https://codeclimate.com/github/rogeriochaves/editable_content/badges/gpa.svg)](https://codeclimate.com/github/rogeriochaves/editable_content)
+[![Travis CI](http://img.shields.io/travis/rogeriochaves/react_editable_content/master.svg)](https://travis-ci.org/rogeriochaves/react_editable_content)
+[![Coverage Status](https://img.shields.io/coveralls/rogeriochaves/react_editable_content.svg)](https://coveralls.io/r/rogeriochaves/react_editable_content)
+[![Code Climate](https://codeclimate.com/github/rogeriochaves/react_editable_content/badges/gpa.svg)](https://codeclimate.com/github/rogeriochaves/react_editable_content)
 
-editable_content makes very simple to create an editable block of text or image. First, include this two gems on your Gemfile:
+The react_editable_content makes very simple to create an editable block of text or image. First, include this two gems on your Gemfile:
 
     gem 'mercury-rails', github: 'jejacks0n/mercury', ref: '1cc637b'
-	gem 'editable_content', github: 'rogeriochaves/editable_content'
+	gem 'react_editable_content', github: 'rogeriochaves/react_editable_content'
 
 Then, run the following command to install the migrations and the authentication.rb file
 
@@ -35,7 +35,7 @@ Create an editable image too, let's go:
 
 Now, go to [http://localhost:3000/editor](http://localhost:3000/editor), you should already be able to change things around, and drag-and-drop images from your computer to upload, isn't that awesome!?
 
-To add an edit link that gets the user to the /editor page (only if the user has permission) on the top of the page, add this before the closing body tag on your application.html.erb
+To add an edit link that gets the user to the /editor page on the top of the page (only if the user has permission), add this before the closing body tag on your application.html.erb
 
     <%= render 'editable_content/edit_link' %>
 
