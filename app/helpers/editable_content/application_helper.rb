@@ -1,5 +1,5 @@
 module EditableContent::ApplicationHelper
-	include Mercury::Authentication if defined? Mercury::Authentication
+	include Mercury::Authentication
 
 	def editable_content(name = nil, &block)
 		contents = capture(&block)
