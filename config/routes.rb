@@ -5,8 +5,5 @@ Rails.application.routes.draw do
     
 	put 'editable' => 'editable_content/editables#update'
 	
-	scope '/mercury' do
-		get ':type/:resource' => "mercury#resource"
-	end
 	mount Mercury::Engine => '/'
 end
